@@ -1,0 +1,20 @@
+type User {
+ _id: ID!
+ email: String!
+ nickName: String!
+ name: String!
+ mobile: String!
+ passWord: String!
+ birthDay: String!
+ follow: [String]!
+ totalFollow: Int!
+ createdAt: String!
+ isDelete: Boolean!
+}
+
+type AdminUser {
+ _id: ID!
+ name: String!
+ passWord: String!
+ type: String!
+}
